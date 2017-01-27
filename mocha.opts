@@ -1,0 +1,10 @@
+--require babel-core/register
+test/setup.js
+src/**/*.spec.js
+src/**/**/*.spec.js
+src/**/**/**/*.spec.js
+src/**/**/**/**/*.spec.js
+src/**/**/**/**/**/*.spec.js
+src/**/**/**/**/**/**/*.spec.js
+src/**/**/**/**/**/**/**/*.spec.js
+src/**/**/**/**/**/**/**/**/*.spec.js

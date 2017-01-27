@@ -1,0 +1,46 @@
+{
+  "name": "@prepair/parse-price",
+  "version": "1.0.0",
+  "description": "Parse price text into currency and value.",
+  "main": "lib/",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "shx rm -rf lib && babel src --ignore spec.js -d lib",
+    "test": "cross-env NODE_ENV=test mocha --opts ./mocha.opts",
+    "test:watch": "npm t -- --watch --reporter min",
+    "precommit": "npm run lint && npm test",
+    "release": "git checkout master; git pull origin master && standard-version && git push --follow-tags origin master; npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prepair/parse-price.git"
+  },
+  "keywords": [
+    "price",
+    "currency"
+  ],
+  "author": "Szabolcs Kurdi <szabolcs.kurdi@gmail.com> (https://github.com/szkrd)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prepair/parse-price/issues"
+  },
+  "homepage": "https://github.com/prepair/parse-price#readme",
+  "devDependencies": {
+    "babel-cli": "6.22.2",
+    "babel-core": "6.22.1",
+    "babel-preset-node6": "11.0.0",
+    "chai": "3.5.0",
+    "cross-env": "3.1.4",
+    "eslint": "3.14.1",
+    "eslint-config-semistandard": "7.0.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-react": "6.9.0",
+    "eslint-plugin-standard": "2.0.1",
+    "husky": "0.13.1",
+    "mocha": "3.2.0",
+    "shx": "0.2.2",
+    "sinon": "1.17.7",
+    "standard-version": "4.0.0"
+  }
+}
