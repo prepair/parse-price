@@ -9,7 +9,7 @@
     "test": "cross-env NODE_ENV=test mocha --opts ./mocha.opts",
     "test:watch": "npm t -- --watch --reporter min",
     "precommit": "npm run lint && npm test",
-    "release": "git checkout master && git pull origin master && standard-version && git push --follow-tags origin master && npm publish --access=public"
+    "release": "npm run build && git status --porcelain && git checkout master && git pull origin master && standard-version && git push --follow-tags origin master && npm publish --access=public"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "babel-cli": "6.22.2",
     "babel-core": "6.22.1",
-    "babel-preset-node6": "11.0.0",
+    "babel-preset-es2015-ie": "6.6.2",
     "chai": "3.5.0",
     "cross-env": "3.1.4",
     "eslint": "3.14.1",
