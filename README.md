@@ -7,12 +7,9 @@ Parse price text into currency and value.
 "221,81 €"   --> { currencyCode: 'EUR', value: 221.81 }
 ```
 
-Supported currencies:
-AED, BAM, BGN, CHF, CZK, EUR, GBP, GEL, HRK, HUF, ILS,
-LVL, MKD, NOK, PLN, RON, RSD, RUB, SEK, UAH, USD
-
-Will not be supported:
-BHD, IQD, JOD, KWD, LYD, OMR, TND
+* Supported currencies: AED, BAM, BGN, CHF, CZK, EUR, GBP, GEL, HRK, HUF, ILS, LVL, MKD, NOK, PLN, RON, RSD, RUB, SEK, UAH, USD
+* Will not be supported: BHD, IQD, JOD, KWD, LYD, OMR, TND
+* Exact list may be found in [locale-support](https://github.com/prepair/locale-support) package.
 
 ## installation
 

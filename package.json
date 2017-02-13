@@ -42,5 +42,8 @@
     "shx": "0.2.2",
     "sinon": "1.17.7",
     "standard-version": "4.0.0"
+  },
+  "dependencies": {
+    "@prepair/locale-support": "1.3.1"
   }
 }
