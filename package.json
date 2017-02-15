@@ -41,6 +41,7 @@
     "mocha": "3.2.0",
     "shx": "0.2.2",
     "sinon": "1.17.7",
+    "sinon-chai": "2.8.0",
     "standard-version": "4.0.0"
   },
   "dependencies": {
