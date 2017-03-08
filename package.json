@@ -45,6 +45,6 @@
     "standard-version": "4.0.0"
   },
   "dependencies": {
-    "@prepair/locale-support": "1.4.0"
+    "@prepair/locale-support": "1.5.0"
   }
 }
