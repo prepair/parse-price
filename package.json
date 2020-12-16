@@ -1,6 +1,6 @@
 {
   "name": "@prepair/parse-price",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Parse price text into currency and value.",
   "main": "lib/",
   "scripts": {
