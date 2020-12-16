@@ -42,7 +42,7 @@
     "shx": "0.2.2",
     "sinon": "1.17.7",
     "sinon-chai": "2.8.0",
-    "standard-version": "4.0.0"
+    "standard-version": "8.0.1"
   },
   "dependencies": {
     "@prepair/locale-support": "2.0.0"
